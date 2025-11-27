@@ -4,7 +4,7 @@
 #include <string>
 #include <mutex>
 
-// Кількість полів (m=3 для варіанту 10)
+
 constexpr int M_FIELDS = 3;
 
 class OptimizedDataStructure {

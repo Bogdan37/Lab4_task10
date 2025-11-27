@@ -17,7 +17,7 @@ void OptimizedDataStructure::set(int fieldIndex, int value) {
         std::lock_guard<std::mutex> lock(mutex_f1_f2);
         fields[fieldIndex] = value;
     }
-    // Ігноруємо індекси > 2 для цього завдання
+
 }
 
 
